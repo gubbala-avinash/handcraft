@@ -1,0 +1,7 @@
+#image{
+    height: 500px;
+   object-fit:cover;
+   background-position: center;
+   max-width: 100%;
+
+}

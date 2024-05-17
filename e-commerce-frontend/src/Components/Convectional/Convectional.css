@@ -1,0 +1,12 @@
+.convectional{
+    display: block;
+    max-width: 100%;
+  margin-top:50px ;
+   
+    /* object-fit: cover;
+    background-image: url(../Assets/conventional.jpg); 
+    background-position:center ; */
+}
+img{
+    max-width: 100%;
+}
