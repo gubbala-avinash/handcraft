@@ -11,7 +11,7 @@ app.use(express.json());
 app.use(cors());
 
 // Database Connection With MongoDB
-mongoose.connect("mongodb://localhost:27017/e-commerce", { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect("mongodb+srv://avi917926:avinash@cluster0.u1okikv.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0/e-commerce", { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => {
     console.log('Connected to MongoDB');
     // Your code here
